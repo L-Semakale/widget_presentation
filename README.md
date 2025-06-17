@@ -10,5 +10,5 @@ In this mini app, a Flutter logo is clipped using `ClipRect`, and when a button 
 
 1. Clone this repo  
    ```bash
-   git clone https://github.com/yourusername/cliprect-demo.git
-   cd cliprect-demo
+   git clone https://github.com/L-Semakale/widget_presentation
+   cd cliprect_widget 
