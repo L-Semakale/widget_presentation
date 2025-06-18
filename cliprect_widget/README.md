@@ -1,16 +1,9 @@
-# cliprect_widget
+# What’s Inside
+The main feature here is the ClipRect widget. It clips its child widget so only part of it shows, depending on the size constraints. This works with AnimatedSize to smoothly expand and collapse the view when you press the button.
 
-A new Flutter project.
+# Three Key Properties
+child: The widget that gets clipped—in this app, a column containing an image and some text.
 
-## Getting Started
+clipBehavior: Controls how the clipping is performed (e.g., hard edge or anti-aliased). We use the default setting.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+AnimatedSize (not part of ClipRect but important here): Animates the size changes of the clipped area for a smooth transition.
