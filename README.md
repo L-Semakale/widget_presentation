@@ -6,6 +6,10 @@ This Flutter demo shows how the `ClipRect` widget can be used to clip content wi
 
 In this mini app, a Flutter logo is clipped using `ClipRect`, and when a button is tapped, it expands or collapses smoothly to reveal more of the image.
 
+## 📸 Screenshot
+
+![UI Screenshot](screenshot.png)
+
 ## How to Run
 
 1. Clone this repo  
